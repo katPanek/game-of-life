@@ -36,6 +36,7 @@ export function App() {
   }
 
   return <div style={{ display: 'flex', height: '100vh', alignItems: 'center', justifyContent: 'center', flexFlow: 'column' }}>
+    <h1>Welcome to Game of Life</h1>
     <div style={{ display: 'flex', padding: '10px', gap: '20px' }}> 
       <button 
         onClick={handleStartClick}
